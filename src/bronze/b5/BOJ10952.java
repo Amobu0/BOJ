@@ -1,16 +1,20 @@
-package b5;
+package bronze.b5;
 
 import java.util.Scanner;
 
-public class BOJ11021 {
+public class BOJ10952 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
 
-        for (int i = 1; i <= T; i++) {
+        while (true) {
             int A = sc.nextInt();
             int B = sc.nextInt();
-            System.out.println("Case #"+i+": " +(A+B) );
+
+            if (A + B == 0) {
+                return;
+            } else {
+                System.out.println(A + B);
+            }
         }
     }
 }

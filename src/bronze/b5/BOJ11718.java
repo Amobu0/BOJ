@@ -1,4 +1,4 @@
-package b5;
+package bronze.b5;
 
 import java.util.Objects;
 import java.util.Scanner;

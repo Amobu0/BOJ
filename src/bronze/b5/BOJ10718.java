@@ -1,4 +1,4 @@
-package b5;
+package bronze.b5;
 
 public class BOJ10718 {
     public static void main(String[] args) {

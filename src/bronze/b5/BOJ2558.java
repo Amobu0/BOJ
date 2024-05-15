@@ -1,8 +1,8 @@
-package b5;
+package bronze.b5;
 
 import java.util.Scanner;
 
-public class BOJ2258 {
+public class BOJ2558 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
